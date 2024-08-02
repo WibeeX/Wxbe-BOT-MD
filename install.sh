@@ -1,4 +1,4 @@
-# Código creado por @gata_dios      
+# Código creado por @Wibesinho_01 
 
 #!/data/data/com.termux/files/usr/bin/bash 
 # Interpretación determinada para la ejecución      
@@ -15,7 +15,7 @@ echo -e "\e[35m╭━━━━━━╮
 ...
 COMMENT
 
-echo -e "\033[01;93mＰＲＥＰＡＲＡＮＤＯ ＩＮＳＴＡＬＡＣＩＯＮ...\n\033[0m"
+echo -e "\033[01;93mＰＲＥＰＡＲＡＮＤＯ ＩＮＳＴＡＬＡＣＩＯＮ  B Y  W I L B E R T...\n\033[0m"
 mp3_array=("https://qu.ax/PreU.mp3" "https://qu.ax/kKXA.mp3" "https://qu.ax/cFSp.mp3" "https://qu.ax/CQRm.mp3" "https://qu.ax/kDSY.mp3" "https://qu.ax/AQLB.mp3" "https://qu.ax/EspE.mp3" "https://qu.ax/ifKO.mp3" "https://qu.ax/EUDu.mp3" "https://qu.ax/SRNs.mp3" "https://qu.ax/WvfK.mp3" "https://qu.ax/lbff.mp3")
 random_mp3=${mp3_array[$RANDOM % ${#mp3_array[@]}]}
 echo -e ""
@@ -126,7 +126,7 @@ echo -e "\e[36m
 🇹 🇴 🇩 🇴  🇨 🇴 🇷 🇷 🇪 🇨 🇹 🇴\n\e[0m"
 echo -e "\033[01;32m\033[01m\nTodas las dependencias se han instalado correctamente.\n\033[0m" 
 
-echo -e "\e[35mＩＮＳＴＡＬＡＮＤＯ ＧＩＴ ＣＬＯＮＥ\n\e[0m"
+echo -e "\e[35mＩＮＳＴＡＬＡＮＤＯ ＧＩＴ ＣＬＯＮＥ BY WILBERT \n\e[0m"
 
 echo -e "\033[1;35m"
 git clone https://github.com/elrebelde21/NovaBot-MD.git
@@ -223,12 +223,12 @@ COMMENT
 
 clear
 echo -e "\e[36m
-┏╍┅┅┅╍⪻ 𝐍𝐨𝐯𝐚𝐁𝐨𝐭-𝐌𝐃 ⪼┅┅┅┅┅┓
-┋❥ 𝐂𝐫𝐞𝐚𝐝𝐨𝐫 : elrebelde21
-┋❥ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 : www.youtube.com/@elrebelde.21
-┋❥ 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 : www.facebook.com/elrebelde21
-┋❥ 𝐆𝐢𝐭𝐇𝐮𝐛 : github.com/elrebelde21
-┋❥ 𝐌𝐞𝐫𝐜𝐚𝐝𝐨 𝐩𝐚𝐠𝐨, 𝐚𝐥𝐢𝐚𝐬: OficialGB
+┏╍┅┅┅╍⪻ Wxibe-𝐌𝐃 ⪼┅┅┅┅┅┓
+┋❥ 𝐂𝐫𝐞𝐚𝐝𝐨𝐫 : Wibesinho_01
+┋❥ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 : www.youtube.com/@WilbertYT-zf4dx/featured
+┋❥ 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 : www.facebook.com/wilbert.jimenez.545402/
+┋❥ 𝐆𝐢𝐭𝐇𝐮𝐛 : github.com/WibeeX
+┋❥ 𝐌𝐞𝐫𝐜𝐚𝐝𝐨 𝐩𝐚𝐠𝐨, 𝐚𝐥𝐢𝐚𝐬: WILBERT
 ┋┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅
 ┋❥ 𝐍𝐨𝐬 𝐨𝐥𝐯𝐢𝐝𝐞𝐧 𝐝𝐞 𝐚𝐩𝐨𝐲𝐚𝐫 𝐧𝐮𝐞𝐬𝐭𝐫𝐨 𝐫𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐢𝐨 𝐨𝐟𝐢𝐜𝐢𝐚𝐥 
 ┋❥ 𝐜𝐨𝐧 𝐮𝐧𝐚 𝐞𝐬𝐭𝐫𝐞𝐥𝐥𝐢𝐭𝐚𝐬 🌟, 𝐨 𝐬𝐢 𝐝𝐞𝐬𝐞𝐚 𝐡𝐚𝐜𝐞𝐫 𝐮𝐧𝐚 𝐝𝐨𝐧𝐚𝐜𝐢𝐨𝐧 
@@ -256,5 +256,5 @@ echo -e "\e[31m
 ＧＲＡＣＩＡＳ ＰＯＲ ＳＵＳ ＰＲＥＦＥＲＥＮＣＩＡＳ 💞\n\e[0m"
     
 sleep 15 && pkill mpv > /dev/null 2>&1 && sleep 2 && rm -f /data/data/com.termux/files/home/"$random_mp3" &
-echo -e "\033[01;32m\033[01mＩＮＩＣＩＡＮＤＯ ＮＯＶＡＢＯＴ-ＭＤ 🚀\n\033[0m"
+echo -e "\033[01;32m\033[01mＩＮＩＣＩＡＮＤＯ W I B E B O T-MD 🚀\n\033[0m"
 npm start
