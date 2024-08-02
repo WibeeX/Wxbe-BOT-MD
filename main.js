@@ -1,7 +1,6 @@
-//Código desde cero y comentarios hecho por: 
-// @gata_dios   
-// @Skidy89  
-// @elrebelde21          
+//Código desde cero y comentario hecho por: 
+// @Wibesinhp_01  
+          
                                      
 //--------------------[ IMPORTACIONES ]-----------------------          
 const baileys = require('@whiskeysockets/baileys'); // trabajar a través de descargas por Whatsapp 
@@ -858,9 +857,7 @@ case 'proyectos': case 'proyecto':
 𝐆𝐫𝐚𝐜𝐢𝐚𝐬 𝐩𝐨𝐫 𝐞𝐬𝐭𝐚𝐫 𝐢𝐧𝐭𝐞𝐫𝐞𝐬𝐚𝐝𝐨 𝐞𝐧 𝐥𝐨𝐬 𝐩𝐫𝐨𝐲𝐞𝐜𝐭𝐨𝐬 𝐝𝐞 𝐦𝐢 𝐜𝐫𝐞𝐚𝐝𝐨𝐫
 𝐥𝐨𝐬 𝐩𝐫𝐨𝐲𝐞𝐜𝐭𝐨𝐬 𝐬𝐨𝐧:
 
-- 𝐘𝐮𝐆𝐢-𝐁𝐎𝐓 GitHub
-- 𝐚𝐧𝐬𝐢-𝐁𝐎𝐓 GitHub
-- 𝐒𝐮𝐩𝐫𝐚-𝐁𝐎𝐓 GitHub
+- Wibe-BOT GitHub
     `,
     botname,
     null,
@@ -988,7 +985,7 @@ array.push({ exists: true, jid: result, ...info })
 } else {  
 array.push({ exists: false, jid: result })  
 }}  
-let txt = '*[ ＲＥＧＩＳＴＲＡＤＯＳ ]*\n\n' + array.filter(v => v.exists).map(v => `• *Número:* wa.me/${v.jid.split('@')[0]}\n*• Bio:* ${v.status || 'Sin descripcion'}\n*• Fecha:* ${formatDate(v.setAt)}`).join('\n\n') + '\n\n*[ ＮＯ ＲＥＧＩＳＴＲＡＤＯＳ ]*\n\n' + array.filter(v => !v.exists).map(v => v.jid.split('@')[0]).join('\n')  
+let txt = '*[ R E G I S T R A D O S - E N - W I B E - B O T ]*\n\n' + array.filter(v => v.exists).map(v => `• *Número:* wa.me/${v.jid.split('@')[0]}\n*• Bio:* ${v.status || 'Sin descripcion'}\n*• Fecha:* ${formatDate(v.setAt)}`).join('\n\n') + '\n\n*[ ＮＯ ＲＥＧＩＳＴＲＡＤＯＳ ]*\n\n' + array.filter(v => !v.exists).map(v => v.jid.split('@')[0]).join('\n')  
 m.reply(txt)  
 function formatDate(n, locale = 'id') {  
 let d = new Date(n)  
