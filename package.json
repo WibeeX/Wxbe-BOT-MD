@@ -9,7 +9,7 @@
   "qr": "node index.js qr",
   "code": "node index.js code",
   "vortexus": "bash vortexus.sh" },
-  "author": "ELIASAR YT",
+  "author": "WILBERT JMZ",
   "license": "ISC",
   "dependencies": {
 "@whiskeysockets/baileys": "npm:@whiskeysockets/baileys@6.7.2",
