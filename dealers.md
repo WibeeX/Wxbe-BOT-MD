@@ -1,6 +1,6 @@
 #### Aquí puedes verificar los distribuidores autorizados - ✅ REY WILBERT ✅.
 #### ✅ = Distribuidor en curso.
-#### ⚪ = Sin información.
+#### ⚪ = Creador Del Bot.
  
 | USUARIO          |   CÓDIGO                | CONTACTO    | ESTADO
 | ------------     | ------------            | ------------| ------------
