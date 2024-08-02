@@ -211,7 +211,7 @@ printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 logger: pino({ level: 'silent' }),
 auth: { creds: state.creds, keys: makeCacheableSignalKeyStore(state.keys, pino({level: 'silent'})) },
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['𝐚𝐧𝐬í-𝐁𝐎𝐓', 'Safari', '1.0.0'] : methodCodeQR ? ['𝐚𝐧𝐬í-𝐁𝐎𝐓', 'Safari', '1.0.0'] : ["Ubuntu", "Chrome", "20.0.04"],
+browser: opcion == '1' ? ['Wibe-𝐁𝐎𝐓-MD', 'Safari', '1.0.0'] : methodCodeQR ? ['Wibe-𝐁𝐎𝐓-MD', 'Safari', '1.0.0'] : ["Ubuntu", "Chrome", "20.0.04"],
 markOnlineOnConnect: true, 
 generateHighQualityLinkPreview: true, 
 syncFullHistory: true,
@@ -339,7 +339,7 @@ contextInfo:{
 forwardedNewsletterMessageInfo: { 
 newsletterJid: '120363296103096943@newsletter', 
 serverMessageId: '', 
-newsletterName: '✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨' }, 
+newsletterName: '✨ Wibe-𝐁𝐎𝐓-MD ✨' }, 
 forwardingScore: 9999999,  
 isForwarded: true,   
 mentionedJid:[m.sender],  
@@ -367,7 +367,7 @@ contextInfo:{
 forwardedNewsletterMessageInfo: { 
 newsletterJid: '120363296103096943@newsletter', 
 serverMessageId: '', 
-newsletterName: '✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨' }, 
+newsletterName: '✨ Wibe-𝐁𝐎𝐓-MD ✨' }, 
 forwardingScore: 9999999,  
 isForwarded: true,    
 mentionedJid:[m.sender],  
@@ -394,7 +394,7 @@ contextInfo:{
 forwardedNewsletterMessageInfo: { 
 newsletterJid: '120363296103096943@newsletter', 
 serverMessageId: '', 
-newsletterName: '✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨' }, 
+newsletterName: '✨ Wibe-𝐁𝐎𝐓-MD ✨' }, 
 forwardingScore: 9999999,  
 isForwarded: true,   
 mentionedJid:[m.sender],  
@@ -422,7 +422,7 @@ contextInfo:{
 forwardedNewsletterMessageInfo: { 
 newsletterJid: '120363296103096943@newsletter', 
 serverMessageId: '', 
-newsletterName: '✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨' }, 
+newsletterName: '✨ 𝐚Wibe-𝐁𝐎𝐓-MD ✨' }, 
 forwardingScore: 9999999,  
 isForwarded: true,   
 mentionedJid:[m.sender],  
@@ -450,7 +450,7 @@ contextInfo:{
 forwardedNewsletterMessageInfo: { 
 newsletterJid: '120363296103096943@newsletter', 
 serverMessageId: '', 
-newsletterName: '✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨' }, 
+newsletterName: '✨ Wibe-𝐁𝐎𝐓-MD ✨' }, 
 forwardingScore: 9999999,  
 isForwarded: true,   
 mentionedJid:[m.sender],  
@@ -478,7 +478,7 @@ contextInfo:{
 forwardedNewsletterMessageInfo: { 
 newsletterJid: '120363296103096943@newsletter', 
 serverMessageId: '', 
-newsletterName: '✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨' }, 
+newsletterName: '✨ Wibe-𝐁𝐎𝐓-MD ✨' }, 
 forwardingScore: 9999999,  
 isForwarded: true,   
 mentionedJid:[m.sender],  
@@ -535,7 +535,7 @@ sock.sendMessage(anu.id, { audio: { url: vn },
 contextInfo: { forwardedNewsletterMessageInfo: { 
 newsletterJid: '120363296103096943@newsletter', 
 serverMessageId: '', 
-newsletterName: '✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨' }, forwardingScore: 9999999, isForwarded: true, mentionedJid:[num], "externalAdReply": { 
+newsletterName: '✨ Wibe-𝐁𝐎𝐓-MD ✨' }, forwardingScore: 9999999, isForwarded: true, mentionedJid:[num], "externalAdReply": { 
 "title": `乂 ＷＥＬＣＯＭＥ 乂`, 
 "body": `${name.split("@")[0]}`, 
 "previewType": "PHOTO", 
@@ -549,7 +549,7 @@ sock.sendMessage(anu.id, { text: `${lenguaje['smsWel7']()} ${lenguaje['smsWel'](
 forwardedNewsletterMessageInfo: { 
 newsletterJid: '120363296103096943@newsletter', 
 serverMessageId: '', 
-newsletterName: '✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨' }, 
+newsletterName: '✨ Wibe-𝐁𝐎𝐓-MD ✨' }, 
 forwardingScore: 9999999,
 isForwarded: true, 
 mentionedJid:[num],
@@ -579,7 +579,7 @@ contextInfo:{
 forwardedNewsletterMessageInfo: { 
 newsletterJid: '120363296103096943@newsletter', 
 serverMessageId: '', 
-newsletterName: '✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨' }, 
+newsletterName: '✨ Wibe-𝐁𝐎𝐓-MD ✨' }, 
 forwardingScore: 9999999,
 isForwarded: true,  
 mentionedJid:[num],
@@ -605,7 +605,7 @@ sock.sendMessage(anu.id, { text: `${pickRandom(['[ NUEVO ADMINS ]\n\n', 'Hey'])}
  forwardedNewsletterMessageInfo: { 
 newsletterJid: '120363296103096943@newsletter', 
 serverMessageId: '', 
-newsletterName: '✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨' }, 
+newsletterName: '✨ Wibe-𝐁𝐎𝐓-MD✨' }, 
 forwardingScore: 9999999,
 isForwarded: true, 
  mentionedJid: [num, usuario],
@@ -626,7 +626,7 @@ sock.sendMessage(anu.id, { text: `@${name.split("@")[0]} ${pickRandom(['Joderte 
  forwardedNewsletterMessageInfo: { 
 newsletterJid: '120363296103096943@newsletter', 
 serverMessageId: '', 
-newsletterName: '✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨' }, 
+newsletterName: '✨ Wibe-𝐁𝐎𝐓-MD ✨' }, 
 forwardingScore: 9999999,
 isForwarded: true, 
  mentionedJid:[num, usuario],
