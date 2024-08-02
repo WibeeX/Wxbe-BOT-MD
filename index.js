@@ -422,7 +422,7 @@ contextInfo:{
 forwardedNewsletterMessageInfo: { 
 newsletterJid: '120363296103096943@newsletter', 
 serverMessageId: '', 
-newsletterName: '✨ 𝐚Wibe-𝐁𝐎𝐓-MD ✨' }, 
+newsletterName: '✨ Wibe-𝐁𝐎𝐓-MD ✨' }, 
 forwardingScore: 9999999,  
 isForwarded: true,   
 mentionedJid:[m.sender],  
