@@ -8,7 +8,7 @@
 <a href="#"><img title="Wxbe-BOT" src="https://img.shields.io/badge/SI%20TE%20AGRADA%20EL%20REPOSITORIO%20APOYAME%20CON%20UNA%20%E2%AD%90%20%C2%A1GRACIAS!%20-red?colorA=%23ffff00&colorB=%23ffff00&style=for-the-badge"></a>
 <a href="#"><img title="WibeeX" src="https://img.shields.io/badge/COMPATIBLE CON LA VERSIÓN MULTI DISPOSITIVOS DE WHATSAPP-red?colorA=%23ffff00&colorB=%23ffff00&style=for-the-badge">
 <div align="centro">
-<a href="https://tinyurl.com/27hyghwa/">
+<a href="https://www.facebook.com/wilbert.jimenez.545402/">
 <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook">
 </a>
 <a href="https://www.youtube.com/@WilbertYT-zf4dx/featured">
