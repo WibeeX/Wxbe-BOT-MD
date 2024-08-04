@@ -184,7 +184,7 @@ if (!m.isGroup) return m.reply(info.group)
 if (!isGroupAdmins) return m.reply(info.admin)
 const pesan = args.join` `;
 const oi = `${lenguaje.grupos.text21} ${pesan}`;
-let teks = `❑ ━〔 *📢 ＩＮＶＯＣＡＣＩＯＮ 📢* 〕━ ❑\n\n`
+let teks = `❑ ━〔 *📢 𝐖𝐈𝐋𝐁𝐄𝐑𝐓 𝐋𝐎𝐒 𝐈𝐍𝐕𝐎𝐂𝐀  📢* 〕━ ❑\n\n`
 teks += `${oi}\n\n`
 for (let mem of participants) {
 teks += `➥ @${mem.id.split('@')[0]}\n`
@@ -199,7 +199,7 @@ const listAdmin = groupAdmins.map((v, i) => `${i + 1}. @${v.id.split('@')[0]}`).
 const owner = groupMetadata.owner || groupAdmins.find((p) => p.admin === 'superadmin')?.id || m.chat.split`-`[0] + '@s.whatsapp.net';
 const pesan = args.join` `;
 const oi = `${lenguaje.grupos.text21} ${pesan}`;
-const text = `═✪〘 **ＩＮＶＯＣＡＮＤＯ ＡＤＭＩＮＳ* 〙✪═\n\n• *ɢʀᴜᴘᴏ:* [ ${groupMetadata.subject} ]\n\n• ${oi}\n\n• *ᴀᴅᴍɪɴs:*\n➥ ${listAdmin}\n\n${lenguaje.grupos.text22}`.trim(); 
+const text = `═✪〘 **𝐈𝐍𝐕𝐎𝐂𝐀𝐍𝐃𝐎 𝐋𝐎𝐒 𝐀𝐃𝐌𝐈𝐍𝐒 𝐂𝐎Ñ𝐎* 〙✪═\n\n• *ɢʀᴜᴘᴏ:* [ ${groupMetadata.subject} ]\n\n• ${oi}\n\n• *ᴀᴅᴍɪɴs:*\n➥ ${listAdmin}\n\n${lenguaje.grupos.text22}`.trim(); 
 conn.sendMessage(m.chat, { text: text, mentions: participants.map(a => a.id) }, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
 
 if (command == 'infogrupo' || command == 'groupinfo') {
