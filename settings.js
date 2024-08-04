@@ -6,17 +6,17 @@ const axios = require('axios')
 
 //---------[ PROPIETARIO/OWNER ]---------
 global.owner = [["18293733257", "Owner", true]]
-global.mods = []
-global.premium = []
+global.mods = ["18293733257"]
+global.premium = ["18293733257"]
 global.blockList = []
 
 //---------[ NOMBRE/INFO ]---------
 global.pagina = "atom.bio/blogansi"
-global.botname = "✨ Wibe-BOT ✨"
-global.wm = '✨ Wibe-BOT ✨'
+global.botname = "✨ 𝐖𝐗𝐈𝐁𝐄 𝐁𝐎𝐓 ✨"
+global.wm = '✨ 𝑹𝑬𝒀  𝑾𝑰𝑳𝑩𝑬𝑹𝑻  ✨'
 global.vs = '1.2'
-global.creador = 'WILBERT ON'
-global.creador2 = 'WILBERT ON'
+global.creador = '𝑹𝑬𝒀  𝑾𝑰𝑳𝑩𝑬𝑹𝑻 '
+global.creador2 = '𝑹𝑬𝒀  𝑾𝑰𝑳𝑩𝑬𝑹𝑻 '
 global.name = '𝑪𝑹𝑬𝑨𝑫𝑶𝑹'
 global.nunber = Math.floor(Math.random() * (27 - 18 + 1)) + 18;
 
@@ -82,10 +82,10 @@ global.APIKeys = {
 //---------[ STICKERS ]---------
 global.packname = "."
 global.author = `{
- "bot": "✨ Wibe-BOT ✨"
-  "autor": "WILBERT ON",
+ "bot": "✨ 𝑹𝑬𝒀  𝑾𝑰𝑳𝑩𝑬𝑹𝑻  ✨"
+  "autor": "𝑹𝑬𝒀  𝑾𝑰𝑳𝑩𝑬𝑹𝑻 ",
   "version": "1.2",
-  "creador": "WILBERT ON"
+  "creador": "𝑹𝑬𝒀  𝑾𝑰𝑳𝑩𝑬𝑹𝑻 "
 }
 `
  
