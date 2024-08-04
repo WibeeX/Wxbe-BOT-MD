@@ -1,7 +1,7 @@
 {
   "name": "Wxbe-BOT",
   "version": "1.0",
-  "description": "Bot de whatsapp",
+  "description": "𝐁𝐎𝐓 𝐃𝐄 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐘 𝐖𝐈𝐋𝐁𝐄𝐑𝐓",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
@@ -9,7 +9,7 @@
   "qr": "node index.js qr",
   "code": "node index.js code",
   "vortexus": "bash vortexus.sh" },
-  "author": "WILBERT JMZ",
+  "author": "𝑹𝑬𝒀 𝑾𝑰𝑳𝑩𝑬𝑹𝑻",
   "license": "ISC",
   "dependencies": {
 "@whiskeysockets/baileys": "npm:@whiskeysockets/baileys@6.7.2",
