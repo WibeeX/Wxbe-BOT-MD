@@ -360,7 +360,7 @@ return }
 if (global.db.data.chats[m.chat].autosticker) {  
 await conn.sendPresenceUpdate('composing', m.chat)
 if (/image/.test(mime) && !/webp/.test(mime)) {
-//m.reply(`_Calma crack estoy haciendo tu sticker 👏_\n\n_*Autosticker esta activado*_`)   
+//m.reply(`_𝐖𝐈𝐋𝐁𝐄𝐑𝐓 𝐄𝐒𝐓𝐀 𝐇𝐀𝐂𝐈𝐄𝐍𝐃𝐎 𝐓𝐔 𝐒𝐓𝐈𝐂𝐊𝐄𝐑 👏_\n\n_*Autosticker esta activado*_`)   
 let media = await quoted.download()
 await conn.sendImageAsSticker(m.chat, media, m, { packname: global.packname, author: global.author, contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: botname, body: `h`, mediaType: 2, sourceUrl: nn6, thumbnail: imagen1}}}, { quoted: m }) 
 console.log(`Auto sticker detected`)
@@ -676,7 +676,7 @@ const member = participants.map((u) => u.id);
         }
     }
     if (total == 0) {
-        return m.reply(`*⚠️ 𝐄𝐒𝐓𝐄 𝐆𝐑𝐔𝐏𝐎 𝐄𝐒 𝐀𝐂𝐓𝐈𝐕𝐎, 𝐍𝐎 𝐓𝐈𝐄𝐍𝐄 𝐅𝐀𝐍𝐓𝐀𝐒𝐌𝐀𝐒 :D*`);
+        return m.reply(`*⚠️ 𝐄𝐒𝐓𝐄 𝐆𝐑𝐔𝐏𝐎 𝐄𝐒 𝐀𝐂𝐓𝐈𝐕𝐎, 𝐍𝐎 𝐓𝐈𝐄𝐍𝐄 𝐅𝐀𝐍𝐓𝐀𝐒𝐌𝐀𝐒, 𝐀𝐓𝐓  𝐖𝐈𝐋𝐁𝐄𝐑𝐓 :D*`);
     }
     conn.sendTextWithMentions(m.chat, `*[ ⚠️ 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝙲𝙸𝙾𝙽 𝙳𝙴 𝙸𝙽𝙰𝙲𝚃𝙸𝚅𝙾𝚂 ⚠️ ]*\n\n*ɢʀᴜᴘᴏ:* ${groupMetadata.subject}\n*ᴍɪᴇᴍʙʀᴏs:* ${sum}\n\n*[ 👻 𝙵𝙰𝙽𝚃𝙰𝚂𝙼𝙰𝚂 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝙳𝙾 👻 ]*\n${sider.map((v) => '  👉🏻 @' + v.replace(/@.+/, '')).join('\n')}\n\n*𝙴𝙻 𝙱𝙾𝚃 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝚁𝙰 𝙻𝙰 𝙻𝙸𝚂𝚃𝙰 𝙼𝙴𝙽𝙲𝙸𝙾𝙽𝙰𝙳𝙰, 𝙴𝙼𝙿𝙴𝚉𝙰𝙳𝙾 𝙴𝙻 𝟷𝟶 𝚂𝙴𝙶𝚄𝙽𝙳𝙾𝚂, 𝚈 𝙲𝙰𝙳𝙰 𝟻 𝚂𝙴𝙶𝚄𝙽𝙳𝙾𝚂 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝚁𝙰́ 𝚄𝙽 𝙽𝚄𝙼𝙴𝚁𝙾`, m);
 // Espera 5 segundos antes de comenzar a eliminar
@@ -857,7 +857,7 @@ case 'proyectos': case 'proyecto':
 𝐆𝐫𝐚𝐜𝐢𝐚𝐬 𝐩𝐨𝐫 𝐞𝐬𝐭𝐚𝐫 𝐢𝐧𝐭𝐞𝐫𝐞𝐬𝐚𝐝𝐨 𝐞𝐧 𝐥𝐨𝐬 𝐩𝐫𝐨𝐲𝐞𝐜𝐭𝐨𝐬 𝐝𝐞 𝐦𝐢 𝐜𝐫𝐞𝐚𝐝𝐨𝐫
 𝐥𝐨𝐬 𝐩𝐫𝐨𝐲𝐞𝐜𝐭𝐨𝐬 𝐬𝐨𝐧:
 
-- Wibe-BOT GitHub
+- 𝑹𝑬𝒀 𝑾𝑰𝑳𝑩𝑬𝑹𝑻  𝑴𝑶𝑫𝑺
     `,
     botname,
     null,
@@ -985,7 +985,7 @@ array.push({ exists: true, jid: result, ...info })
 } else {  
 array.push({ exists: false, jid: result })  
 }}  
-let txt = '*[ R E G I S T R A D O S - E N - W I B E - B O T ]*\n\n' + array.filter(v => v.exists).map(v => `• *Número:* wa.me/${v.jid.split('@')[0]}\n*• Bio:* ${v.status || 'Sin descripcion'}\n*• Fecha:* ${formatDate(v.setAt)}`).join('\n\n') + '\n\n*[ ＮＯ ＲＥＧＩＳＴＲＡＤＯＳ ]*\n\n' + array.filter(v => !v.exists).map(v => v.jid.split('@')[0]).join('\n')  
+let txt = '*[ 𝙍𝙀𝙂𝙄𝙎𝙏𝙍𝘼𝘿𝙊𝙎 𝙀𝙉 𝙀𝙇 𝘽𝙊𝙏 𝘿𝙀 𝙒𝙄𝙇𝘽𝙀𝙍𝙏 ]*\n\n' + array.filter(v => v.exists).map(v => `• *Número:* wa.me/${v.jid.split('@')[0]}\n*• Bio:* ${v.status || 'Sin descripcion'}\n*• Fecha:* ${formatDate(v.setAt)}`).join('\n\n') + '\n\n*[ ＮＯ ＲＥＧＩＳＴＲＡＤＯＳ ]*\n\n' + array.filter(v => !v.exists).map(v => v.jid.split('@')[0]).join('\n')  
 m.reply(txt)  
 function formatDate(n, locale = 'id') {  
 let d = new Date(n)  
