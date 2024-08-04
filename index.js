@@ -211,7 +211,7 @@ printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 logger: pino({ level: 'silent' }),
 auth: { creds: state.creds, keys: makeCacheableSignalKeyStore(state.keys, pino({level: 'silent'})) },
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['Wxbe-BOT', 'Safari', '1.0.0'] : methodCodeQR ? ['Wxbe-BOT, 'Safari', '1.0.0'] : ["Ubuntu", "Chrome", "20.0.04"],
+browser: opcion == '1' ? ['Wxbe-BOT-MD', 'Safari', '1.0.0'] : methodCodeQR ? ['Wxbe-BOT-MD, 'Safari', '1.0.0'] : ["Ubuntu", "Chrome", "20.0.04"],
 markOnlineOnConnect: true, 
 generateHighQualityLinkPreview: true, 
 syncFullHistory: true,
@@ -313,7 +313,7 @@ for (let fucker of fuckedcall) {
 if (fucker.isGroup == false) {
 if (fucker.status == "offer") {
 let call = await sock.sendTextWithMentions(fucker.from, `*[ ! ] @${fucker.from.split('@')[0]} ${lenguaje['smscall']()} ${fucker.isVideo ? `videollamadas` : `llamadas` }_\n\n${lenguaje['smscall2']()}\n\n• ${fb}`)
-let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:; Eliasar YT👑;;;\nFN: Wxbe-BOT\nORG: Wxbe-BOT👑\nTITLE:\nitem1.TEL;waid=50582340051:+50582340051\nitem1.X-ABLabel:Propietario 👑\nX-WA-BIZ-DESCRIPTION:ᴇsᴄʀɪʙɪ sᴏʟᴏ ᴘᴏʀ ᴄᴏsᴀs ᴅᴇʟ ʙᴏᴛ.\nX-WA-BIZ-NAME:Owner 👑\nEND:VCARD`
+let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:; Wxbe-BOT-MD👑;;;\nFN: Wxbe-BOT-MD\nORG: Wxbe-BOT-MD👑\nTITLE:\nitem1.TEL;waid=50582340051:+50582340051\nitem1.X-ABLabel:Propietario 👑\nX-WA-BIZ-DESCRIPTION:ᴇsᴄʀɪʙɪ sᴏʟᴏ ᴘᴏʀ ᴄᴏsᴀs ᴅᴇʟ ʙᴏᴛ.\nX-WA-BIZ-NAME:Owner 👑\nEND:VCARD`
 sock.sendMessage(fucker.from, { contacts: { displayName: '✨ Wxbe-BOT ✨', contacts: [{ vcard }] }}, {quoted: call, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 await sleep(8000)
 await sock.updateBlockStatus(fucker.from, "block")
