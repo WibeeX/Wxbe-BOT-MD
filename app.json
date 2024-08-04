@@ -2,7 +2,7 @@
   "name": "WxbeBot-MD",
   "description": "𝑩𝑶𝑻 𝑫𝑬 𝑾𝑯𝑨𝑻𝑺𝑨𝑷𝑷 𝑩𝒀 𝑹𝑬𝒀 𝑾𝑰𝑳𝑩𝑬𝑹𝑻",
   "repository": "https://github.com/elrebelde21/NovaBot-MD",
-  "logo": "https://pbs.twimg.com/media/FO7fojOakAAyYgt?format=jpg&name=900x900",
+  "logo": "file:///C:/Users/R3Y%20%20WILBERT/Downloads/menu%20(1).jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
     {
